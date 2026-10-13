@@ -1,0 +1,36 @@
+{
+  "n_questions": 150,
+  "page_matching": "exact_zero_index",
+  "page_diversified": true,
+  "page_dense_weight": "3.0",
+  "hybrid_dense_weight": "3.0",
+  "k": 5,
+  "answer_evaluation": false,
+  "answer_mode": null,
+  "metrics": {
+    "dense": {
+      "document_recall@k": 0.8067,
+      "page_recall@k": 0.4,
+      "document_mrr@k": 0.7346,
+      "page_mrr@k": 0.2383
+    },
+    "hybrid": {
+      "document_recall@k": 0.8267,
+      "page_recall@k": 0.2467,
+      "document_mrr@k": 0.744,
+      "page_mrr@k": 0.1518
+    },
+    "hybrid_balanced": {
+      "document_recall@k": 0.8333,
+      "page_recall@k": 0.2,
+      "document_mrr@k": 0.7373,
+      "page_mrr@k": 0.1281
+    },
+    "page_hybrid": {
+      "document_recall@k": 0.8267,
+      "page_recall@k": 0.2267,
+      "document_mrr@k": 0.7399,
+      "page_mrr@k": 0.1498
+    }
+  }
+}
